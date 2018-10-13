@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+October 13, 2018
 
 ### Project Title
-Replace the Project Title
+Exploring US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project is my implementation of Udacity's capstone for the Introduction
+to Python module of the Programming for Data Science Nanodegree Program.
+
+This project is an interactive program that allows a user to filter and view
+various summary statistics for bikeshare data collected for Chicago, New York
+City, and Washington, DC.  The program demonstrates basic knowledge of using
+the NumPy and Pandas libraries to perform data analysis.
 
 ### Files used
-Include the files used
+Files included:
+  * bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+[Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/index.html)
