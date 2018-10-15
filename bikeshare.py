@@ -109,7 +109,12 @@ def peek_data(df):
         print(df.head())
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+
+    Args:
+        (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
