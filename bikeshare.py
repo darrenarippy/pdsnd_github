@@ -159,7 +159,7 @@ def convert_to_12_hour(hour_24):
 def station_stats(df):
     """
     Displays statistics on the most popular stations and trip.
-    
+
     Args:
         (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
     """
@@ -185,8 +185,12 @@ def station_stats(df):
     print('-'*40)
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
 
+    Args:
+        (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
+    """
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
