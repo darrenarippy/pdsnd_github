@@ -109,8 +109,12 @@ def peek_data(df):
         print(df.head())
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
 
+    Args:
+        (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
+    """
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
     prompt = "The most common {} for bikeshare usage is {}"
@@ -153,8 +157,12 @@ def convert_to_12_hour(hour_24):
     return hour
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """
+    Displays statistics on the most popular stations and trip.
 
+    Args:
+        (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
+    """
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
     prompt = "The most commonly used {} station is {}"
@@ -177,8 +185,12 @@ def station_stats(df):
     print('-'*40)
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """
+    Displays statistics on the total and average trip duration.
 
+    Args:
+        (Pandas DataFrame) df - A Pandas DataFrame containing bikeshare data.
+    """
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
